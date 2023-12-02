@@ -35,9 +35,7 @@ def get_num(line):
 
 def main():
     with open("day01.in.utf8", 'r') as FILE:
-        with open("day01.out.utf8", 'w') as O_FILE:
-            O_FILE.write(f"{sum(map(get_num, FILE.readlines()))}\n")
-            O_FILE.close()
+        print(f"{sum(map(get_num, FILE.readlines()))}")
         FILE.close()
 
 if __name__ == "__main__":

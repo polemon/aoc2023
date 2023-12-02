@@ -12,4 +12,4 @@ for l in "${(@f)"$(<./day01.in.utf8)"}"
     }
 }
 
-echo "${s}" > ./day01.out.utf8
+echo "${s}"

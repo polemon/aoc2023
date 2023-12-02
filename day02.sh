@@ -44,4 +44,4 @@ for l in "${(@f)"$(<./day02.in.utf8)"}"
     s=$((s + "${game}"))
 }
 
-echo "${s}" > ./day02.out.utf8
+echo "${s}"

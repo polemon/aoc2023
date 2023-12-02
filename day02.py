@@ -8,7 +8,7 @@ def get_num(line):
     g_max = 0
     b_max = 0
     
-    for grab in line.strip().split(": ")[1].split('; '):
+    for grab in line.strip().split(": ")[1].split("; "):
         try:
             r_max = max(r_max, int(re.search(r"(\d+) red", grab).group(1)))
         except:
